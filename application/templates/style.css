@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+.container{
+    width: 800px !important;
+    height: 800px !important;
+}

@@ -8,3 +8,7 @@ def index():
 @app.route("/layout")
 def layout():
     return render_template('layout.html', title = 'layout')
+
+@app.route("/charts")
+def charts():
+    return render_template('charts.html', title = 'Charts')
