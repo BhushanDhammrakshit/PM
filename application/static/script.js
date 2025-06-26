@@ -73,7 +73,6 @@ new Chart(ctx2, {
   }
 });
 
-
 // Bar chart
 new Chart(ctx3, {
   type: 'bar',
@@ -97,6 +96,7 @@ new Chart(ctx3, {
   }
 });
 
+// Pie chart
 new Chart(ctx4, {
   type: 'pie',
   data : {
@@ -125,6 +125,7 @@ new Chart(ctx4, {
   }
 });
 
+// Polar Area chart
 new Chart(ctx5, {
   type: 'polarArea',
   data: {
@@ -158,6 +159,7 @@ new Chart(ctx5, {
   }
 });
 
+// Radar chart
 new Chart(ctx6, {
   type: 'radar',
   data: {
