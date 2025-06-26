@@ -12,7 +12,18 @@ body {
     width: 100%;
     font-family: Arial, sans-serif;
 }
+
 .container{
-    width: 800px !important;
-    height: 800px !important;
+    width: 500px !important;
+    height: 500px !important;
+}
+
+.chart-wrapper {
+    display: flex;
+    gap: 20px; /* space between the two charts */
+}
+
+.container {
+    width: 200px;
+    height: 200px;
 }
