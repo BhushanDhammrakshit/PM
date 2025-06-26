@@ -14,16 +14,17 @@ body {
 }
 
 .container{
-    width: 500px !important;
-    height: 500px !important;
+    width: 500px ;
+    height: 300px ;
 }
 
 .chart-wrapper {
     display: flex;
     gap: 20px; /* space between the two charts */
+    justify-content: center;
+    flex-direction: column;
 }
 
-.container {
-    width: 200px;
-    height: 200px;
+.donut-chart{
+    height: 500px;
 }
